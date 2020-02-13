@@ -13,4 +13,4 @@ The Dataset that was selected for the Network Analysis is the Stack Overflow Tag
 
 ## Authors
 
-* [Rafaila98](https://github.com/Rafaila98) 
+* [Rafaila Galanopoulou](https://github.com/Rafaila98) 
