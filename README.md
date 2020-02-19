@@ -2,8 +2,6 @@
 This repository was created for the assignment in **Social Networks Analysis** university course. The project is assigned by [Dimitrios Pournarakis](https://www.linkedin.com/in/demitrios-pournarakis-71b59223/).
 
 
-The whole Network Analysis report can be found [here](https://github.com/Rafaila98/Stack-Overflow-Tag-Network/blob/master/report.pdf).
-
 ## Dataset
 
 The Dataset that was selected for the Network Analysis is the Stack Overflow Tag and exists in [Kaggle](https://www.kaggle.com/stackoverflow/stack-overflow-tag-network).
