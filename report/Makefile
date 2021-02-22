@@ -1,8 +1,11 @@
 .SUFFIXES:.eps .pdf .gz .data .dot
 
 report.pdf: document.tex 
-	pdflatex -shell-escape document
-	mv document.pdf report.pdf
+	latexmk -pdf -jobname=report -pdflatex="pdflatex -interaction=nonstopmode" -use-make document.tex
 
 clean:
-	rm -f document.aux report.pdf document.blg document.toc document.run.xml  *.log *.out *pyg
+	rm -f report.aux report.pdf *.blg *.toc document.run.xml  *.log *.out *pyg report.fls report.fdb_latexmk
+
+
+
+
